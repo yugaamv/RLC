@@ -29,7 +29,6 @@ void main()
 {
 double x;
 int choise;
-clrscr();
 printf("******* RLC Circuit *******");
 printf("\nchoose one \n1.series\n2.parallel\n");
 scanf("%d",&choise);
@@ -54,5 +53,4 @@ f1=(w1/2*M_PI);
 f2=(w2/2*M_PI);
 f=(w/2*M_PI);
 printf("\nResult\nResonant Frequency :%lf hz\nUpper cutoff :%lf hz\nLower cutoff :%lf hz\nQuality Factor :%lf\nBandwidth :%lf hz",f,f1,f2,qf,bw);
-getch();
 }
